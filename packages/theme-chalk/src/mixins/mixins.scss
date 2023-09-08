@@ -1,0 +1,3 @@
+// 声明公共的sass方法
+@use 'config' as *; // 引入config.scss,作为全部变量
+@forward 'config'; // 向外暴露config.scss的全部变量
